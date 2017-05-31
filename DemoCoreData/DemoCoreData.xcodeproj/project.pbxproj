@@ -12,13 +12,26 @@
 		906749AE1ED2C35200CE246E /* KVC_KVO_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906749AD1ED2C35200CE246E /* KVC_KVO_ViewController.m */; };
 		9070C3011EC04FD600045F0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9070C3001EC04FD600045F0F /* main.m */; };
 		9070C3041EC04FD600045F0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9070C3031EC04FD600045F0F /* AppDelegate.m */; };
-		9070C3071EC04FD600045F0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9070C3061EC04FD600045F0F /* ViewController.m */; };
+		9070C3071EC04FD600045F0F /* OperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9070C3061EC04FD600045F0F /* OperationViewController.m */; };
 		9070C30A1EC04FD600045F0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9070C3081EC04FD600045F0F /* Main.storyboard */; };
 		9070C30D1EC04FD600045F0F /* DemoCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9070C30B1EC04FD600045F0F /* DemoCoreData.xcdatamodeld */; };
 		9070C30F1EC04FD600045F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9070C30E1EC04FD600045F0F /* Assets.xcassets */; };
 		9070C3121EC04FD600045F0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9070C3101EC04FD600045F0F /* LaunchScreen.storyboard */; };
 		908416D71ED7FFB700B62FA4 /* DeviceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 908416D31ED7FFB700B62FA4 /* DeviceDetailViewController.m */; };
 		908416D81ED7FFB700B62FA4 /* DeviceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 908416D61ED7FFB700B62FA4 /* DeviceTableViewController.m */; };
+		90D5719F1EDEB819007E32BF /* LoginViewCotroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D5719E1EDEB819007E32BF /* LoginViewCotroller.m */; };
+		90D571B11EDEB996007E32BF /* DLCDOLocationServiceOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D571A21EDEB996007E32BF /* DLCDOLocationServiceOperation.m */; };
+		90D571B21EDEB996007E32BF /* DLCDOServiceOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D571A41EDEB996007E32BF /* DLCDOServiceOperation.m */; };
+		90D571B31EDEB996007E32BF /* DLCDOUserServiceOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D571A61EDEB996007E32BF /* DLCDOUserServiceOperation.m */; };
+		90D571B41EDEB996007E32BF /* DSCDOLocationServiceOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D571A81EDEB996007E32BF /* DSCDOLocationServiceOperation.m */; };
+		90D571B51EDEB996007E32BF /* DSCDOOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D571AA1EDEB996007E32BF /* DSCDOOperation.m */; };
+		90D571B61EDEB996007E32BF /* LoginOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D571AC1EDEB996007E32BF /* LoginOperation.m */; };
+		90D571B71EDEB996007E32BF /* NirvanaOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D571AE1EDEB996007E32BF /* NirvanaOperation.m */; };
+		90D571B81EDEB996007E32BF /* NirvanaSharedOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D571B01EDEB996007E32BF /* NirvanaSharedOperationQueue.m */; };
+		90D571BC1EDEC49C007E32BF /* CDOManagementService.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D571BB1EDEC49C007E32BF /* CDOManagementService.m */; };
+		90D571C01EDEC67B007E32BF /* PullAndProcessCDOResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D571BF1EDEC67B007E32BF /* PullAndProcessCDOResponse.m */; };
+		90D571C71EDEC7E0007E32BF /* LocationsCDOService.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D571C31EDEC7E0007E32BF /* LocationsCDOService.m */; };
+		90D571CF1EDEC89A007E32BF /* UserCDOService.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D571CE1EDEC89A007E32BF /* UserCDOService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +45,8 @@
 		9070C3001EC04FD600045F0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9070C3021EC04FD600045F0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9070C3031EC04FD600045F0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9070C3051EC04FD600045F0F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9070C3061EC04FD600045F0F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9070C3051EC04FD600045F0F /* OperationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationViewController.h; sourceTree = "<group>"; };
+		9070C3061EC04FD600045F0F /* OperationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationViewController.m; sourceTree = "<group>"; };
 		9070C3091EC04FD600045F0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9070C30C1EC04FD600045F0F /* DemoCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DemoCoreData.xcdatamodel; sourceTree = "<group>"; };
 		9070C30E1EC04FD600045F0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,6 +56,32 @@
 		908416D41ED7FFB700B62FA4 /* DeviceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDetailViewController.h; sourceTree = "<group>"; };
 		908416D51ED7FFB700B62FA4 /* DeviceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTableViewController.h; sourceTree = "<group>"; };
 		908416D61ED7FFB700B62FA4 /* DeviceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceTableViewController.m; sourceTree = "<group>"; };
+		90D5719D1EDEB819007E32BF /* LoginViewCotroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewCotroller.h; sourceTree = "<group>"; };
+		90D5719E1EDEB819007E32BF /* LoginViewCotroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewCotroller.m; sourceTree = "<group>"; };
+		90D571A11EDEB996007E32BF /* DLCDOLocationServiceOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCDOLocationServiceOperation.h; sourceTree = "<group>"; };
+		90D571A21EDEB996007E32BF /* DLCDOLocationServiceOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCDOLocationServiceOperation.m; sourceTree = "<group>"; };
+		90D571A31EDEB996007E32BF /* DLCDOServiceOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCDOServiceOperation.h; sourceTree = "<group>"; };
+		90D571A41EDEB996007E32BF /* DLCDOServiceOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCDOServiceOperation.m; sourceTree = "<group>"; };
+		90D571A51EDEB996007E32BF /* DLCDOUserServiceOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCDOUserServiceOperation.h; sourceTree = "<group>"; };
+		90D571A61EDEB996007E32BF /* DLCDOUserServiceOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCDOUserServiceOperation.m; sourceTree = "<group>"; };
+		90D571A71EDEB996007E32BF /* DSCDOLocationServiceOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSCDOLocationServiceOperation.h; sourceTree = "<group>"; };
+		90D571A81EDEB996007E32BF /* DSCDOLocationServiceOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSCDOLocationServiceOperation.m; sourceTree = "<group>"; };
+		90D571A91EDEB996007E32BF /* DSCDOOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSCDOOperation.h; sourceTree = "<group>"; };
+		90D571AA1EDEB996007E32BF /* DSCDOOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSCDOOperation.m; sourceTree = "<group>"; };
+		90D571AB1EDEB996007E32BF /* LoginOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginOperation.h; sourceTree = "<group>"; };
+		90D571AC1EDEB996007E32BF /* LoginOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginOperation.m; sourceTree = "<group>"; };
+		90D571AD1EDEB996007E32BF /* NirvanaOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NirvanaOperation.h; sourceTree = "<group>"; };
+		90D571AE1EDEB996007E32BF /* NirvanaOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NirvanaOperation.m; sourceTree = "<group>"; };
+		90D571AF1EDEB996007E32BF /* NirvanaSharedOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NirvanaSharedOperationQueue.h; sourceTree = "<group>"; };
+		90D571B01EDEB996007E32BF /* NirvanaSharedOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NirvanaSharedOperationQueue.m; sourceTree = "<group>"; };
+		90D571BA1EDEC49C007E32BF /* CDOManagementService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDOManagementService.h; sourceTree = "<group>"; };
+		90D571BB1EDEC49C007E32BF /* CDOManagementService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDOManagementService.m; sourceTree = "<group>"; };
+		90D571BE1EDEC67B007E32BF /* PullAndProcessCDOResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullAndProcessCDOResponse.h; sourceTree = "<group>"; };
+		90D571BF1EDEC67B007E32BF /* PullAndProcessCDOResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullAndProcessCDOResponse.m; sourceTree = "<group>"; };
+		90D571C21EDEC7E0007E32BF /* LocationsCDOService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationsCDOService.h; sourceTree = "<group>"; };
+		90D571C31EDEC7E0007E32BF /* LocationsCDOService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationsCDOService.m; sourceTree = "<group>"; };
+		90D571CD1EDEC89A007E32BF /* UserCDOService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCDOService.h; sourceTree = "<group>"; };
+		90D571CE1EDEC89A007E32BF /* UserCDOService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCDOService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,14 +114,15 @@
 		9070C2FE1EC04FD600045F0F /* DemoCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				90D5719C1EDEB7DE007E32BF /* MultipleOperation */,
 				908416D31ED7FFB700B62FA4 /* DeviceDetailViewController.m */,
 				908416D41ED7FFB700B62FA4 /* DeviceDetailViewController.h */,
 				908416D51ED7FFB700B62FA4 /* DeviceTableViewController.h */,
 				908416D61ED7FFB700B62FA4 /* DeviceTableViewController.m */,
 				9070C3021EC04FD600045F0F /* AppDelegate.h */,
 				9070C3031EC04FD600045F0F /* AppDelegate.m */,
-				9070C3051EC04FD600045F0F /* ViewController.h */,
-				9070C3061EC04FD600045F0F /* ViewController.m */,
+				9070C3051EC04FD600045F0F /* OperationViewController.h */,
+				9070C3061EC04FD600045F0F /* OperationViewController.m */,
 				9070C3081EC04FD600045F0F /* Main.storyboard */,
 				9070C30E1EC04FD600045F0F /* Assets.xcassets */,
 				9070C3101EC04FD600045F0F /* LaunchScreen.storyboard */,
@@ -105,6 +145,79 @@
 				9070C3001EC04FD600045F0F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90D5719C1EDEB7DE007E32BF /* MultipleOperation */ = {
+			isa = PBXGroup;
+			children = (
+				90D571CC1EDEC89A007E32BF /* UserService */,
+				90D571C11EDEC7E0007E32BF /* LocationsService */,
+				90D571BD1EDEC67B007E32BF /* PullResponse */,
+				90D571B91EDEC49C007E32BF /* CDOManagement */,
+				90D571A01EDEB996007E32BF /* Operation */,
+				90D5719D1EDEB819007E32BF /* LoginViewCotroller.h */,
+				90D5719E1EDEB819007E32BF /* LoginViewCotroller.m */,
+			);
+			path = MultipleOperation;
+			sourceTree = "<group>";
+		};
+		90D571A01EDEB996007E32BF /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				90D571A11EDEB996007E32BF /* DLCDOLocationServiceOperation.h */,
+				90D571A21EDEB996007E32BF /* DLCDOLocationServiceOperation.m */,
+				90D571A31EDEB996007E32BF /* DLCDOServiceOperation.h */,
+				90D571A41EDEB996007E32BF /* DLCDOServiceOperation.m */,
+				90D571A51EDEB996007E32BF /* DLCDOUserServiceOperation.h */,
+				90D571A61EDEB996007E32BF /* DLCDOUserServiceOperation.m */,
+				90D571A71EDEB996007E32BF /* DSCDOLocationServiceOperation.h */,
+				90D571A81EDEB996007E32BF /* DSCDOLocationServiceOperation.m */,
+				90D571A91EDEB996007E32BF /* DSCDOOperation.h */,
+				90D571AA1EDEB996007E32BF /* DSCDOOperation.m */,
+				90D571AB1EDEB996007E32BF /* LoginOperation.h */,
+				90D571AC1EDEB996007E32BF /* LoginOperation.m */,
+				90D571AD1EDEB996007E32BF /* NirvanaOperation.h */,
+				90D571AE1EDEB996007E32BF /* NirvanaOperation.m */,
+				90D571AF1EDEB996007E32BF /* NirvanaSharedOperationQueue.h */,
+				90D571B01EDEB996007E32BF /* NirvanaSharedOperationQueue.m */,
+			);
+			path = Operation;
+			sourceTree = "<group>";
+		};
+		90D571B91EDEC49C007E32BF /* CDOManagement */ = {
+			isa = PBXGroup;
+			children = (
+				90D571BA1EDEC49C007E32BF /* CDOManagementService.h */,
+				90D571BB1EDEC49C007E32BF /* CDOManagementService.m */,
+			);
+			path = CDOManagement;
+			sourceTree = "<group>";
+		};
+		90D571BD1EDEC67B007E32BF /* PullResponse */ = {
+			isa = PBXGroup;
+			children = (
+				90D571BE1EDEC67B007E32BF /* PullAndProcessCDOResponse.h */,
+				90D571BF1EDEC67B007E32BF /* PullAndProcessCDOResponse.m */,
+			);
+			path = PullResponse;
+			sourceTree = "<group>";
+		};
+		90D571C11EDEC7E0007E32BF /* LocationsService */ = {
+			isa = PBXGroup;
+			children = (
+				90D571C21EDEC7E0007E32BF /* LocationsCDOService.h */,
+				90D571C31EDEC7E0007E32BF /* LocationsCDOService.m */,
+			);
+			path = LocationsService;
+			sourceTree = "<group>";
+		};
+		90D571CC1EDEC89A007E32BF /* UserService */ = {
+			isa = PBXGroup;
+			children = (
+				90D571CD1EDEC89A007E32BF /* UserCDOService.h */,
+				90D571CE1EDEC89A007E32BF /* UserCDOService.m */,
+			);
+			path = UserService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,15 +291,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9070C3071EC04FD600045F0F /* ViewController.m in Sources */,
+				9070C3071EC04FD600045F0F /* OperationViewController.m in Sources */,
+				90D571CF1EDEC89A007E32BF /* UserCDOService.m in Sources */,
+				90D571B11EDEB996007E32BF /* DLCDOLocationServiceOperation.m in Sources */,
+				90D571C01EDEC67B007E32BF /* PullAndProcessCDOResponse.m in Sources */,
+				90D571B41EDEB996007E32BF /* DSCDOLocationServiceOperation.m in Sources */,
+				90D571B51EDEB996007E32BF /* DSCDOOperation.m in Sources */,
+				90D571BC1EDEC49C007E32BF /* CDOManagementService.m in Sources */,
+				90D5719F1EDEB819007E32BF /* LoginViewCotroller.m in Sources */,
+				90D571B61EDEB996007E32BF /* LoginOperation.m in Sources */,
 				908416D71ED7FFB700B62FA4 /* DeviceDetailViewController.m in Sources */,
+				90D571C71EDEC7E0007E32BF /* LocationsCDOService.m in Sources */,
 				9070C30D1EC04FD600045F0F /* DemoCoreData.xcdatamodeld in Sources */,
 				9034F1891ECDAE450000941A /* Children.m in Sources */,
+				90D571B21EDEB996007E32BF /* DLCDOServiceOperation.m in Sources */,
+				90D571B81EDEB996007E32BF /* NirvanaSharedOperationQueue.m in Sources */,
 				9070C3041EC04FD600045F0F /* AppDelegate.m in Sources */,
+				90D571B71EDEB996007E32BF /* NirvanaOperation.m in Sources */,
 				906749AE1ED2C35200CE246E /* KVC_KVO_ViewController.m in Sources */,
 				908416D81ED7FFB700B62FA4 /* DeviceTableViewController.m in Sources */,
 				9070C3011EC04FD600045F0F /* main.m in Sources */,
 				90509EEB1EC449F7003D27E2 /* TestOperation.m in Sources */,
+				90D571B31EDEB996007E32BF /* DLCDOUserServiceOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
