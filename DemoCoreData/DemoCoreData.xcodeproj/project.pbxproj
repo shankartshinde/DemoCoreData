@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9034F1891ECDAE450000941A /* Children.m in Sources */ = {isa = PBXBuildFile; fileRef = 9034F1881ECDAE450000941A /* Children.m */; };
+		90509EEB1EC449F7003D27E2 /* TestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 90509EEA1EC449F7003D27E2 /* TestOperation.m */; };
+		906749AE1ED2C35200CE246E /* KVC_KVO_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906749AD1ED2C35200CE246E /* KVC_KVO_ViewController.m */; };
 		9070C3011EC04FD600045F0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9070C3001EC04FD600045F0F /* main.m */; };
 		9070C3041EC04FD600045F0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9070C3031EC04FD600045F0F /* AppDelegate.m */; };
 		9070C3071EC04FD600045F0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9070C3061EC04FD600045F0F /* ViewController.m */; };
@@ -14,9 +17,17 @@
 		9070C30D1EC04FD600045F0F /* DemoCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9070C30B1EC04FD600045F0F /* DemoCoreData.xcdatamodeld */; };
 		9070C30F1EC04FD600045F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9070C30E1EC04FD600045F0F /* Assets.xcassets */; };
 		9070C3121EC04FD600045F0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9070C3101EC04FD600045F0F /* LaunchScreen.storyboard */; };
+		908416D71ED7FFB700B62FA4 /* DeviceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 908416D31ED7FFB700B62FA4 /* DeviceDetailViewController.m */; };
+		908416D81ED7FFB700B62FA4 /* DeviceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 908416D61ED7FFB700B62FA4 /* DeviceTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9034F1871ECDAE450000941A /* Children.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Children.h; sourceTree = "<group>"; };
+		9034F1881ECDAE450000941A /* Children.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Children.m; sourceTree = "<group>"; };
+		90509EE91EC449F7003D27E2 /* TestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestOperation.h; sourceTree = "<group>"; };
+		90509EEA1EC449F7003D27E2 /* TestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestOperation.m; sourceTree = "<group>"; };
+		906749AC1ED2C35200CE246E /* KVC_KVO_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVC_KVO_ViewController.h; sourceTree = "<group>"; };
+		906749AD1ED2C35200CE246E /* KVC_KVO_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVC_KVO_ViewController.m; sourceTree = "<group>"; };
 		9070C2FC1EC04FD600045F0F /* DemoCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9070C3001EC04FD600045F0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9070C3021EC04FD600045F0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +39,10 @@
 		9070C30E1EC04FD600045F0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9070C3111EC04FD600045F0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9070C3131EC04FD600045F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		908416D31ED7FFB700B62FA4 /* DeviceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDetailViewController.m; sourceTree = "<group>"; };
+		908416D41ED7FFB700B62FA4 /* DeviceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDetailViewController.h; sourceTree = "<group>"; };
+		908416D51ED7FFB700B62FA4 /* DeviceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTableViewController.h; sourceTree = "<group>"; };
+		908416D61ED7FFB700B62FA4 /* DeviceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +75,10 @@
 		9070C2FE1EC04FD600045F0F /* DemoCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				908416D31ED7FFB700B62FA4 /* DeviceDetailViewController.m */,
+				908416D41ED7FFB700B62FA4 /* DeviceDetailViewController.h */,
+				908416D51ED7FFB700B62FA4 /* DeviceTableViewController.h */,
+				908416D61ED7FFB700B62FA4 /* DeviceTableViewController.m */,
 				9070C3021EC04FD600045F0F /* AppDelegate.h */,
 				9070C3031EC04FD600045F0F /* AppDelegate.m */,
 				9070C3051EC04FD600045F0F /* ViewController.h */,
@@ -70,6 +89,12 @@
 				9070C3131EC04FD600045F0F /* Info.plist */,
 				9070C30B1EC04FD600045F0F /* DemoCoreData.xcdatamodeld */,
 				9070C2FF1EC04FD600045F0F /* Supporting Files */,
+				90509EE91EC449F7003D27E2 /* TestOperation.h */,
+				90509EEA1EC449F7003D27E2 /* TestOperation.m */,
+				9034F1871ECDAE450000941A /* Children.h */,
+				9034F1881ECDAE450000941A /* Children.m */,
+				906749AC1ED2C35200CE246E /* KVC_KVO_ViewController.h */,
+				906749AD1ED2C35200CE246E /* KVC_KVO_ViewController.m */,
 			);
 			path = DemoCoreData;
 			sourceTree = "<group>";
@@ -154,9 +179,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9070C3071EC04FD600045F0F /* ViewController.m in Sources */,
+				908416D71ED7FFB700B62FA4 /* DeviceDetailViewController.m in Sources */,
 				9070C30D1EC04FD600045F0F /* DemoCoreData.xcdatamodeld in Sources */,
+				9034F1891ECDAE450000941A /* Children.m in Sources */,
 				9070C3041EC04FD600045F0F /* AppDelegate.m in Sources */,
+				906749AE1ED2C35200CE246E /* KVC_KVO_ViewController.m in Sources */,
+				908416D81ED7FFB700B62FA4 /* DeviceTableViewController.m in Sources */,
 				9070C3011EC04FD600045F0F /* main.m in Sources */,
+				90509EEB1EC449F7003D27E2 /* TestOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +310,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DemoCoreData.DemoCoreData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -291,6 +322,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DemoCoreData.DemoCoreData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -313,6 +345,7 @@
 				9070C3181EC04FD600045F0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
